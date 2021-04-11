@@ -1,0 +1,5 @@
+For my extension I have altered bookcase.c to not produce any children which have already appeared in this list. 
+This appears to increase the runtime of the program however, it reduces memory use as the list is a lot shorter
+having no repeated bookcase arrangements.
+
+Type "make all" to build bookcase.c and extension.c with all flag combinations.
